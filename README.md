@@ -10,4 +10,4 @@ The first ouput is the signal from cg_descent package and 0 means convergence in
 
 
 ## Source Code
-Source code of the compiled files can be found under the src/ folder.
+Source code, including cpu and gpu versio of cDFT for gas adsorption and cpu version of solvation cDFT, can be found under the src/ folder.

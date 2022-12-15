@@ -1,0 +1,38 @@
+Box size(Angstrom), Picard iteration weight, IVIN (0, 1 for not or yes of accouting Vint) 
+32.000000     0.95    1
+Number of grid point
+128     128    128
+Option of including bridge term ( 1 for include, and 0 for not include), ratio  (iteration trick)
+1 	 1.0
+Input density   One step calculation   Output density   Scale with MD
+.false.              .false.             .true.            .true.
+MD_peak(O)  HS cutoff       Vext cutoff    Input density cutoff
+7.0         1.2              350.0              0.1
+Number of solvent site
+3
+charge   sigma(A) epsilon(KJ/mol)    x          y       z
+-0.834    3.151    0.636          0.0         0.0     0.0
+0.417     0.0      0.0            0.816495    0.0     0.5773525
+0.417     0.0      0.0           -0.816495    0.0     0.5773525
+************** CHANGE INPUT BELOW **************************
+Type of LJ potential
+1
+atom 	 sigma 	 epsilon
+1	 1.826342372    0.117108486
+Number of solute sites
+1
+atom 	 x 	   y 	 	 z 	 	 mass 	 	 	 charge
+1	0.0	0.0	0.0	6.941000	1.000000
+Grid zones	Bulk cutoff
+    4     	10.000000
+Grid size	Starting from
+    2    	4.000000
+    4    	6.000000
+    8    	8.000000
+    16   	10.000000
+Frequency zones      
+1
+Frequency            Starting from
+2                       16.0
+Solute Name 
+Li
